@@ -58,22 +58,19 @@ Group: Platforms  {
 
 Group: Sockethub  {
 
-   File: cleanupPlatform  (sockethub/listener.js)
    File: ClientManager  (sockethub/client-manager.js)
    File: ConfigLoader  (sockethub/config-loader.js)
-   File: dispatcher.js  (sockethub/dispatcher.js)
-   File: session.js  (sockethub/session.js)
+   File: Dispatcher  (sockethub/dispatcher.js)
+   File: Listener  (sockethub/listener.js)
+   File: SessionManager  (sockethub/session.js)
    File: Sockethub  (sockethub/sockethub.js)
    File: Subsystem  (sockethub/subsystem.js)
    }  # Group: Sockethub
-
-File: verbs  (schemas/verbs.js)
 
 Group: Index  {
 
    Index: Everything
    Class Index: Classes
-   File Index: Files
    Function Index: Functions
    Property Index: Properties
    Variable Index: Variables
