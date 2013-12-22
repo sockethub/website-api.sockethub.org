@@ -64,7 +64,7 @@ Group: Sockethub  {
    File: dispatcher.js  (sockethub/dispatcher.js)
    File: session.js  (sockethub/session.js)
    File: Sockethub  (sockethub/sockethub.js)
-   File: subsystem.js  (sockethub/subsystem.js)
+   File: Subsystem  (sockethub/subsystem.js)
    }  # Group: Sockethub
 
 File: verbs  (schemas/verbs.js)
@@ -77,5 +77,6 @@ Group: Index  {
    Function Index: Functions
    Property Index: Properties
    Variable Index: Variables
+   Event Index: Events
    }  # Group: Index
 
